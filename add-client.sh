@@ -160,5 +160,5 @@ done
 
 wg syncconf $INTERFACE_SERVER <(wg-quick strip $INTERFACE_SERVER)
 
-cp $GENERATED_SCRIPT /home/bismith/client-setup-${ADDRESS_CLIENT}-${HOSTNAME_CLIENT}.sh \
-	&& chown bismith:bismith /home/bismith/client-setup-${ADDRESS_CLIENT}-${HOSTNAME_CLIENT}.sh
+cp $GENERATED_SCRIPT /home/bismith/client-setup/client-setup-${ADDRESS_CLIENT}-${HOSTNAME_CLIENT}.sh \
+	&& chown bismith:bismith /home/bismith/client-setup/client-setup-${ADDRESS_CLIENT}-${HOSTNAME_CLIENT}.sh
